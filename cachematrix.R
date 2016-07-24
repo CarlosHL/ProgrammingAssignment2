@@ -29,3 +29,8 @@ cacheSolve <- function(x, ...) {
   x$setinverse(m)
   m
 }
+
+# test case
+# a<-makeCacheMatrix()
+# a$set(matrix(1:4,2,2))
+# cacheSolve(a)
